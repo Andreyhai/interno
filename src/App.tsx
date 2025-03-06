@@ -1,4 +1,5 @@
 import Header from './components/header/Header'
+import HeroSection from './components/sections/hello-section/HeroSection'
 import './styles/globals.scss'
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <HeroSection />
     </>
   )
 }

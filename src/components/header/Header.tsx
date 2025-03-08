@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import logoIcon from '../../assets/icons/logoIcon.svg'
-import logoText from '../../assets/logoTeext.svg'
+import logoText from '../../assets/icons/logoTeext.svg'
 import humburgerIcon from '../../assets/icons/Hamburger.svg'
 import closeIcon from '../../assets/icons/closeIcon.svg'
 

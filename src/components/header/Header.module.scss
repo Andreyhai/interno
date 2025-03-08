@@ -21,7 +21,8 @@
             ul {
                 display: flex;
                 list-style: none;
-                gap: 20px; /* Отступ между элементами навигации */
+                gap: 20px;
+                /* Отступ между элементами навигации */
                 padding: 0;
                 margin: 0;
             }
@@ -33,16 +34,31 @@
 
             a {
                 text-decoration: none;
-                color: #333; /* Стандартный цвет текста ссылок */
+                color: #333;
+                /* Стандартный цвет текста ссылок */
                 transition: color 0.3s ease;
+
+                
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+                letter-spacing: 0.4px;
+
+
+
             }
 
             a:hover {
-                color: #CDA274; /* Цвет при наведении */
+                color: #CDA274;
+                /* Цвет при наведении */
             }
 
             a:focus {
-                color: #CDA274; /* Цвет активного пункта */
+                color: #CDA274;
+                /* Цвет активного пункта */
             }
         }
 
@@ -85,9 +101,10 @@
             .navigation {
                 display: none;
             }
-            
+
             .menu {
-                display: flex; /* Показываем кнопку меню */
+                display: flex;
+                /* Показываем кнопку меню */
             }
         }
     }
@@ -97,7 +114,8 @@
 .sidePanel {
     position: fixed;
     top: 0;
-    right: -250px; /* Панель скрыта за пределами экрана */
+    right: -250px;
+    /* Панель скрыта за пределами экрана */
     width: 250px;
     height: 100%;
     background-color: #fff;
@@ -132,14 +150,17 @@
     }
 
     a:hover {
-        color: #CDA274; /* Цвет при наведении */
+        color: #CDA274;
+        /* Цвет при наведении */
     }
 
     a:focus {
-        color: #CDA274; /* Цвет активного пункта */
+        color: #CDA274;
+        /* Цвет активного пункта */
     }
 }
 
 .sidePanel.open {
-    right: 0; /* Панель появляется при открытии */
+    right: 0;
+    /* Панель появляется при открытии */
 }

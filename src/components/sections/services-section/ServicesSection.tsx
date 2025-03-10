@@ -16,9 +16,9 @@ const ServicesSection = () => {
     
     return (
         <section className={styles.ServicesSection}>
-            <div className={styles.container}>
+            <article className={styles.container}>
                 {services.map((service) => (<ServiceBlock title={service.title} subtitle={service.subtitle} />))}
-            </div>
+            </article>
         </section>
     )
 }

@@ -1,5 +1,6 @@
 import DarkButton from "../../shared/dark-button/DarkButton"
 import phoneIcon from '../../../assets/icons/phoneIcon.svg'
+import arrowRight from '../../../assets/icons/arrowRight.svg'
 import styles from './AboutSection.module.scss'
 
 const AboutSection = () => {
@@ -24,7 +25,7 @@ const AboutSection = () => {
                             <span className={styles.phoneInfo}>Call Us Anytime</span>
                         </div>
                     </article>
-                    <DarkButton title={"Get Free Estimate"} />
+                    <DarkButton title={"Get Free Estimate"} src={arrowRight} color='black' />
                 </article>
                 <article className={styles.imageBlock}/>
             </div>

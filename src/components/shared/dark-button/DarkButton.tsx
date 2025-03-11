@@ -1,16 +1,17 @@
 import styles from './DarkButton.module.scss'
-import arrowRight from '../../../assets/icons/arrowRight.svg'
 import { FC } from 'react';
 
 interface DarkButtonProps {
-    title: string
+    title: string,
+    src: string,
+    color: string
 }
 
-const DarkButton:FC<DarkButtonProps> = ({title}) => {
+const DarkButton:FC<DarkButtonProps> = ({title, src, color}) => {
     return (
-        <button className={styles.DarkButton}>
+        <button className={styles.DarkButton} style={{background: color === 'black' ? '#292F36' : '#cda274'}}>
             <span>{title}</span>
-            <img src={arrowRight} alt="Get Started" />
+            <img src={src} alt="Get Started" />
         </button>
     )
 }
